@@ -7,15 +7,15 @@ required: true
 }
 })
 const text = ref(props.msg)
-const changeText = () => text.value = 'Dupa'
+const changeText = () => text.value = 'Pupa'
 
-// Zadanie juz zrobone :0
+// Zadanie juz zrobone :0 :)
 </script>
 
 <template>
   <div class="greetings">
     <h1 class="green">{{ text }}</h1>
-    <button @click="changeText">Zmien</button>
+    <button @click="changeText">Change text</button>
     <h3>
       You’ve successfully created a project with
       <a href="https://vitejs.dev/" target="_blank" rel="noopener">Vite</a> +
