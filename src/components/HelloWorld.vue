@@ -9,7 +9,7 @@ required: true
 const text = ref(props.msg)
 const changeText = () => text.value = 'Dupa'
 
-
+// Zadanie juz zrobone
 </script>
 
 <template>
